@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap');
+
+body
+{
+    font-family: 'Fredoka', sans-serif;
+    background-color: #003865;
+}
+
+#seleccionar-mascota
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.titulo
+{
+    color:rgb(255, 255, 255);
+    font-size: 42px;
+
+}
+
+.subtitulo
+{
+    color:rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+.tarjetas
+{
+    display: flex;
+    gap: 10px;
+}
+
+.tarjeta-de-mokepon
+{
+    width: 175px;
+    height: 100px;
+    background: #395B64;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid wheat;
+    border-radius: 20px;
+    display: flex;
+    color:aliceblue;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tarjeta-de-mokepon img
+{
+    width: 78px;
+}
+
+#boton-mascota
+{
+    width: 175px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid wheat;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+    margin: 30px 10px 10px 10px;
+    color:white;
+}
+
+input
+{
+    display: none;
+}
+
+#seleccionar-ataque
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boton-de-ataque
+{
+    background-color: #395B64;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid wheat;
+    color:aliceblue;
+    font-family: 'Fredoka', sans-serif;
+    border-radius: 20px;
+    width: 180px;
+}
+
+#mensaje 
+{
+    width: 280px;
+    background: rgb(205, 232, 248);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#boton-reiniciar
+{
+    color:#e5ebf0;
+    font-size: 24px;
+    font-family: 'Fredoka', sans-serif;
+    border: 2px solid rgb(44, 32, 9);
+    border-radius: 20px;
+    background-color: #395B64;
+}
+
+.ataques
+{
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+@media (max-width: 360px)
+{
+    .tarjetas
+    {
+        flex-direction: column;
+    }
+}
